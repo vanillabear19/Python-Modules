@@ -65,4 +65,5 @@ Give it a few minutes... it's slow. Look at the code....what do you think rws.sc
 
 #### Your mission: 
 Get the web scraper working.  Tweak it and add some new functionality or modify its current behavior. 
+Then, see if you can make a new branch that scrapes a page from another website and returns its data. 
 
