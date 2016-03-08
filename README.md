@@ -43,10 +43,8 @@ cd into this app's directory
 #### Install selenium : 
 <blockquote>pip install selenium</blockquote>
 
-#### You may have to add phantomjs to your path:  
-You can do this by adding it in your .bash_profile
-
-<blockquote>PATH="${PATH}:/some/other/directory:/another/place/scripts/live:"</blockquote>
+#### You may have to add phantomjs to your system: 
+<blockquote> npm install -g phantomjs </blockquote>
 
 Now, since you're already in the correct directory, you should be able to enter the python CLI and create an instance
 of the web scraper.  
@@ -59,6 +57,8 @@ Enter the python CLI :
 >> rws = RWScraper() 
 
 >> rws.scrape() 
+
+Give it a few minutes... it's slow. Look at the code....what do you think rws.scrape() is doing ? 
 
 >> rws.print_news() 
 
